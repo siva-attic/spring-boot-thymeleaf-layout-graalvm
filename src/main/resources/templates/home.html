@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      th:replace="~{layout :: layout(title=~{::title/text()},
+                    content=~{::#content}, pageScripts=~{})}">
+<head>
+    <title>Home</title>
+</head>
+<body>
+<div id="content">
+    <h1>This is Home Page</h1>
+    <a href="/">Home Page</a>
+    <a href="/about">About Page</a>
+</div>
+</body>
+</html>

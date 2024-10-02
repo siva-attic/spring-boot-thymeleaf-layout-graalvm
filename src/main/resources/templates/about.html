@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      th:replace="~{layout :: layout(~{::title/text()}, ~{::#content},~{::#pageScripts})}">
+<head>
+    <title>About</title>
+</head>
+<body>
+<div id="content">
+    <h1>This is About Page</h1>
+    <a href="/">Home Page</a>
+    <a href="/about">About Page</a>
+</div>
+<th:block id="pageScripts">
+    <script src="/webjars/jquery/3.7.1/jquery.js"></script>
+</th:block>
+</body>
+</html>
